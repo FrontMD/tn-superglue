@@ -1,0 +1,198 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "Nova";
+  src: url("fonts/proximanova_light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nova";
+  src: url("fonts/proximanova_semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Nova";
+  src: url("fonts/proximanova_bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 20px;
+  line-height: 1.2;
+  font-family: "Nova", tahoma, sans-serif;
+  font-weight: normal;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  border: 0;
+}
+
+.page {
+  background: #242e40;
+}
+
+.block7 {
+  background: #fff;
+  padding-bottom: 60px;
+}
+
+.block7_content {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 10px 40px 0;
+}
+
+.block7_title {
+  font-size: 50px;
+  font-weight: 600;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.block7_title span {
+  color: #aaa;
+}
+
+/* Полезные материалы */
+.section6 {
+  position: relative;
+  top: 0vh;
+  left: 0;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  z-index: 30;
+  will-change: transform, opacity;
+  transform-style: preserve-3d;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-flow: column nowrap;
+  background: #fff;
+  padding-top: 3.1833910035vw;
+}
+
+.section6__title {
+  width: 100%;
+  position: relative;
+  display: block;
+  z-index: 25;
+  color: rgb(25, 25, 25);
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.section6__title span {
+  color: rgb(133, 135, 140);
+}
+
+.accordions {
+  position: relative;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column nowrap;
+  margin-top: 3.1833910035vw;
+}
+
+.accordion {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 1.937716263vw;
+  display: block;
+}
+
+.accordion__intro {
+  position: relative;
+  cursor: pointer;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.937716263vw;
+  line-height: 2.3529411765vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  color: #191919;
+  border-radius: 0;
+  padding-top: 1.5916955017vw;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.accordion__intro p {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 1.937716263vw;
+  line-height: 2.3529411765vw;
+}
+
+.accordion__intro .accordion__intro__img {
+  position: relative;
+  width: 4.0830449827vw;
+  min-width: 4.0830449827vw;
+  height: 4.0830449827vw;
+  min-height: 4.0830449827vw;
+  background: #F0F0F0;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordion__intro .accordion__intro__img svg {
+  animation-name: rotationClose;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.accordion__active .accordion__intro .accordion__intro__img svg {
+  animation-name: rotationOpen;
+  animation-duration: 0.2s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.accordion__content {
+  max-height: 0;
+  overflow: hidden;
+  will-change: max-height;
+  transition: all 0.25s ease-out;
+  opacity: 0;
+  padding-top: 0;
+}
+
+.accordion__active .accordion__content {
+  background: #fff;
+  opacity: 1;
+  width: 100%;
+}/*# sourceMappingURL=styles.css.map */
