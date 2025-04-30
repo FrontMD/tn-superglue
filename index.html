@@ -6,7 +6,6 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-	<link rel="stylesheet" href="styles/jquery.fancybox.min.css" type="text/css">
 	<link rel="stylesheet" href="styles/aos.css" type="text/css">
 	<link rel="stylesheet" href="styles/styles.css" type="text/css">
 
@@ -23,25 +22,48 @@
 					<div class="sg-intro__logo">
 						<img src="img/logo.svg">
 					</div>
-					<nav class="sg-intro__nav">
-						<a href="#" class="sg-intro__link">Для быстрого ремонта</a>
-						<a href="#" class="sg-intro__link">Супер-клей</a>
-						<a href="#" class="sg-intro__link">Видео</a>
-						<a href="#" class="sg-intro__link">Полезная информация</a>
+					<button class="burger-open" data-js="burgerOpen">
+						<svg width="29" height="23" viewBox="0 0 29 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="29" y="0.214844" width="3" height="29" transform="rotate(90 29 0.214844)"
+								fill="currentColor" />
+							<rect x="29" y="8.69922" width="3" height="29" transform="rotate(90 29 8.69922)"
+								fill="currentColor" />
+							<rect x="29" y="17.1855" width="3" height="29" transform="rotate(90 29 17.1855)"
+								fill="currentColor" />
+						</svg>
+					</button>
+					<div class="burger-overlay" data-js="burgerClose" data-name="burgerOverlay"></div>
+					<nav class="sg-intro__nav" data-js="burgerMenu">
+						<button class="burger-close" data-js="burgerClose">
+							<svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<rect x="20.5059" width="4" height="29" transform="rotate(45 20.5059 0)"
+									fill="currentColor" />
+								<rect width="4" height="29"
+									transform="matrix(-0.707107 0.707107 0.707107 0.707107 2.82812 0)"
+									fill="currentColor" />
+							</svg>
+						</button>
+						<a href="#sgPurpose" class="sg-intro__link">Для быстрого ремонта</a>
+						<a href="#sgProduct" class="sg-intro__link">Супер-клей</a>
+						<a href="#video" class="sg-intro__link">Видео</a>
+						<a href="#block7" class="sg-intro__link">Полезная информация</a>
 					</nav>
 				</div>
 				<div class="sg-intro__content">
-					<h1 class="sg-intro__title">Легкость в работе, сила в результате</h1>
-					<div class="sg-intro__subtitle">Супер-клеи ТЕХНОНИКОЛЬ Master</div>
+					<h1 class="sg-intro__title" data-aos="fade-up" data-aos-duration="800">Легкость в работе, сила в
+						результате</h1>
+					<div class="sg-intro__subtitle" data-aos="fade-up" data-aos-duration="800">Супер-клеи ТЕХНОНИКОЛЬ
+						Master</div>
 					<a href="javascript:void(0)" class="sg-intro__btn sg-btn">Купить в интернет-магазине</a>
 				</div>
 			</div>
 		</section>
 
-		<section class="sg-section sg-purpose">
+		<section id="sgPurpose" class="sg-section sg-purpose">
 			<div class="sg-container">
 				<div class="sg-purpose__cards">
-					<div class="sg-purpose-card">
+					<div class="sg-purpose-card" data-aos="flip-left" data-aos-duration="700">
 						<div class="sg-purpose-card__bg sg-purpose-card__bg--small">
 							<img src="img/purpose_1.png">
 						</div>
@@ -49,7 +71,7 @@
 						<div class="sg-purpose-card__text">воплощайте самые смелые идеи без страха за результат
 						</div>
 					</div>
-					<div class="sg-purpose-card">
+					<div class="sg-purpose-card" data-aos="flip-left" data-aos-duration="700" data-aos-delay="200">
 						<div class="sg-purpose-card__bg">
 							<img src="img/purpose_2.png">
 						</div>
@@ -57,7 +79,7 @@
 						<div class="sg-purpose-card__text">обеспечивают схватывание всего за 5-10 секунд, позволяя
 							быстро завершить работу</div>
 					</div>
-					<div class="sg-purpose-card">
+					<div class="sg-purpose-card" data-aos="flip-left" data-aos-duration="700" data-aos-delay="400">
 						<div class="sg-purpose-card__bg">
 							<img src="img/purpose_3.png">
 						</div>
@@ -71,51 +93,52 @@
 
 		<section class="sg-section sg-surfaces">
 			<div class="sg-container">
-				<h2 class="sg-section__title">Надежное склеивание различных поверхностей</h2>
+				<h2 class="sg-section__title" data-aos="fade-up" data-aos-duration="800">Надежное склеивание различных
+					поверхностей</h2>
 				<ul class="sg-surfaces__list">
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_1.png">
 						</div>
 						<div class="sg-surfaces__text">Дерево</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="50">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_2.png">
 						</div>
 						<div class="sg-surfaces__text">Пробка</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="100">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_3.png">
 						</div>
 						<div class="sg-surfaces__text">Пластик</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="150">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_4.png">
 						</div>
 						<div class="sg-surfaces__text">Кожа</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="200">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_5.png">
 						</div>
 						<div class="sg-surfaces__text">Резина</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="250">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_6.png">
 						</div>
 						<div class="sg-surfaces__text">Фарфор</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="300">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_7.png">
 						</div>
 						<div class="sg-surfaces__text">Керамика</div>
 					</li>
-					<li class="sg-surfaces__item">
+					<li class="sg-surfaces__item" data-aos="flip-up" data-aos-duration="700" data-aos-delay="350">
 						<div class="sg-surfaces__bg">
 							<img src="img/surface_8.png">
 						</div>
@@ -125,10 +148,10 @@
 			</div>
 		</section>
 
-		<section class="sg-section sg-product">
+		<section id="sgProduct" class="sg-section sg-product">
 			<div class="sg-container">
-				<h2 class="sg-section__title">Всегда можно положиться</h2>
-				<div class="sg-product__grid">
+				<h2 class="sg-section__title" data-aos="fade-up" data-aos-duration="800">Всегда можно положиться</h2>
+				<div class="sg-product__grid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
 					<div class="sg-product-card sg-product-card--1">
 						<div class="sg-product-card__bg">
 							<img src="img/product_img_1.jpg">
@@ -183,8 +206,8 @@
 
 		<section class="sg-section sg-product">
 			<div class="sg-container">
-				<h2 class="sg-section__title">Всегда готов к работе</h2>
-				<div class="sg-product__grid">
+				<h2 class="sg-section__title" data-aos="fade-up" data-aos-duration="800">Всегда готов к работе</h2>
+				<div class="sg-product__grid" data-aos="fade-up" data-aos-duration="800" data-aos-delay="200">
 					<div class="sg-product-card sg-product-card--1">
 						<div class="sg-product-card__bg">
 							<img src="img/product_img_2.jpg">
@@ -524,8 +547,6 @@
 		})
 	</script>
 	<script src="js/jquery-3.4.1.min.js"></script>
-	<script src="js/jquery.fancybox.min.js"></script>
-	<script src="js/jquery.inputmask.js"></script>
 	<script src="js/script.js"></script>
 
 </body>
