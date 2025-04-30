@@ -1,0 +1,35 @@
+<svg width="139" height="211" viewBox="0 0 139 211" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g opacity="0.5">
+<path d="M68.8186 0L0 40.201L68.8186 80.8562L139 40.201L68.8186 0Z" fill="white"/>
+<path d="M68.8186 210.765L139 170.11V161.933L68.8186 202.588L0 161.933V170.11L68.8186 210.765Z" fill="white"/>
+<path d="M68.8186 103.342L139 62.6864V58.5981L68.8186 99.2534L0 58.5981V62.6864L68.8186 103.342Z" fill="white"/>
+<path d="M68.8186 187.144L139 146.489V142.4L68.8186 183.056L0 142.4V146.489L68.8186 187.144Z" fill="white"/>
+<path d="M123.328 93.2769L139 103.952V115.762L123.328 105.087L103.909 136.09L93.1209 123.939L68.8186 156.417L46.7876 122.349L34.4093 136.09L11.8105 105.087L0 115.762V103.952L11.8105 93.2769L34.4093 124.279L46.7876 110.538L68.8186 144.607L93.1209 112.128L103.909 124.279L123.328 93.2769Z" fill="white"/>
+<g opacity="0.5">
+<mask id="mask0_454_67" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="40" width="70" height="170">
+<path d="M0 40.2368L69.5 80.4737V209.963L0 168.995V40.2368Z" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_454_67)">
+<path d="M-2.5625 33.2866L71.327 215.45" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 47.9185L71.327 230.082" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 62.5498L71.327 244.713" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 77.1816L71.327 259.345" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 91.813L71.327 273.976" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 106.445L71.327 288.608" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 121.076L71.327 303.239" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 135.708L71.327 317.871" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 150.339L71.327 332.502" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 164.971L71.327 347.134" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 18.6553L71.327 200.818" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 4.02393L71.327 186.187" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -10.6079L71.327 171.555" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -25.2393L71.327 156.924" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -39.8711L71.327 142.292" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -54.5024L71.327 127.661" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -69.1343L71.327 113.029" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -83.7656L71.327 98.3975" stroke="white" stroke-width="2"/>
+<path d="M-2.5625 -98.3975L71.327 83.7657" stroke="white" stroke-width="2"/>
+</g>
+</g>
+</g>
+</svg>
