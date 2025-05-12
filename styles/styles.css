@@ -700,9 +700,21 @@ img {
 
 @media only screen and (max-width: 1350px) {
   .sg-product-card--3 .sg-product-card__icon {
+    width: 99px;
+    height: 150px;
+    margin-top: 3px;
+  }
+
+  .sg-product--last .sg-product-card--3 .sg-product-card__icon {
+    width: 127px;
+    height: 180px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sg-product-card--3 .sg-product-card__icon {
     width: 79px;
     height: 120px;
-    margin-top: 3px;
   }
 
   .sg-product--last .sg-product-card--3 .sg-product-card__icon {
