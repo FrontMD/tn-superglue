@@ -78,7 +78,7 @@ img {
 
 @media only screen and (max-width: 1350px) {
   .sg-section__title {
-    font-size: 42px;
+    font-size: 44px;
   }
 }
 
@@ -310,7 +310,7 @@ img {
 .sg-purpose-card__title {
   position: relative;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 30px;
   line-height: 1.2;
   letter-spacing: -0.01em;
   text-transform: uppercase;
@@ -433,8 +433,8 @@ img {
   height: 100%;
   -o-object-fit: cover;
   object-fit: cover;
-  -o-object-position: left;
-  object-position: left;
+  -o-object-position: right;
+  object-position: right;
 }
 
 .sg-product-card__content {
@@ -602,7 +602,7 @@ img {
   }
 }
 
-@media only screen and (min-width: 1351px) {
+/*@media only screen and (min-width: 1351px) {
   .sg-product--first .sg-product-card--1 .sg-product-card__bg img {
     width: 127.5%;
     -o-object-position: center;
@@ -622,7 +622,7 @@ img {
   .sg-product--last .sg-product-card--1 .sg-product-card__bg img {
     transform: translateX(-1%);
   }
-}
+}*/
 
 .sg-product-card--2 {
   background: linear-gradient(203.91deg, rgba(23, 52, 53, 0.5) 15.36%, rgba(67, 152, 155, 0.5) 88.13%);
@@ -649,9 +649,16 @@ img {
 
 @media only screen and (max-width: 1350px) {
   .sg-product-card--2 .sg-product-card__icon {
+    width: 45px;
+    height: 45px;
+    margin-left: 1px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .sg-product-card--2 .sg-product-card__icon {
     width: 36px;
     height: 36px;
-    margin-left: 1px;
   }
 }
 
@@ -669,9 +676,12 @@ img {
   background: linear-gradient(114.63deg, rgba(0, 0, 0, 0.5) -7.13%, rgba(3, 103, 89, 0.5) 113.46%);
 }
 
-.sg-product-card--3 .sg-product-card__text {
-  max-width: 250px
+@media only screen and (max-width: 1350px) {
+  .sg-product-card--3 .sg-product-card__text {
+    max-width: 220px
+  }
 }
+
 
 @media only screen and (max-width: 1023px) {
   .sg-product-card--3 {
@@ -706,8 +716,8 @@ img {
   }
 
   .sg-product--last .sg-product-card--3 .sg-product-card__icon {
-    width: 127px;
-    height: 180px;
+    width: 99px;
+    height: 150px;
   }
 }
 
@@ -1006,7 +1016,7 @@ img {
 
 @media only screen and (max-width: 1350px) {
   .sg-intro__title {
-    font-size: 60px;
+    font-size: 70px;
     max-width: 700px;
   }
 }
@@ -1113,7 +1123,7 @@ img {
   margin-top: 37px;
 }
 
-@media only screen and (max-width: 1350px) {
+@media only screen and (max-width: 1200px) {
   .sg-surfaces__list {
     gap: 10px;
     margin-top: 32px;
