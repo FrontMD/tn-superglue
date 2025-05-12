@@ -921,13 +921,23 @@ img {
   object-position: right;
 }
 
+@media only screen and (max-width: 1023px) {
+  .sg-product--last .sg-product-card--7 .sg-product-card__bg img {
+    object-position: right 46%;
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .sg-product--last .sg-product-card--7 .sg-product-card__bg img {
+    object-position: right;
+  }
+}
+
 @media only screen and (min-width: 1401px) {
   .sg-product--last .sg-product-card--7 .sg-product-card__bg img {
     height: 105%;
   }
 }
-
-
 
 .sg-intro {
   position: relative;
