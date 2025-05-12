@@ -70,7 +70,7 @@ img {
   text-transform: uppercase;
 }
 
-@media only screen and (max-width: 1023px) {
+@media only screen and (max-width: 1400px) {
   .sg-section__title {
     font-size: 40px;
   }
