@@ -63,8 +63,7 @@
 		<section id="sgPurpose" class="sg-section sg-purpose">
 			<div class="sg-container">
 				<div class="sg-purpose__cards">
-					<div class="sg-purpose-card sg-purpose-card--hidden" data-js="sgPurposeCard" data-aos="flip-left"
-						data-aos-duration="700">
+					<div class="sg-purpose-card" data-js="sgPurposeCard" data-aos-duration="700">
 						<div class="sg-purpose-card__bg sg-purpose-card__bg--small">
 							<img src="img/purpose_1.png">
 						</div>
@@ -72,8 +71,7 @@
 						<div class="sg-purpose-card__text">воплощайте самые смелые идеи без страха за результат
 						</div>
 					</div>
-					<div class="sg-purpose-card sg-purpose-card--hidden" data-js="sgPurposeCard" data-aos="flip-left"
-						data-aos-duration="700" data-aos-delay="200">
+					<div class="sg-purpose-card" data-js="sgPurposeCard" data-aos-duration="700" data-aos-delay="200">
 						<div class="sg-purpose-card__bg sg-purpose-card__bg--overlay">
 							<img src="img/purpose_2.png">
 						</div>
@@ -81,8 +79,7 @@
 						<div class="sg-purpose-card__text">обеспечивают схватывание всего за 5-10 секунд, позволяя
 							быстро завершить работу</div>
 					</div>
-					<div class="sg-purpose-card sg-purpose-card--hidden" data-js="sgPurposeCard" data-aos="flip-left"
-						data-aos-duration="700" data-aos-delay="400">
+					<div class="sg-purpose-card" data-js="sgPurposeCard" data-aos-duration="700" data-aos-delay="400">
 						<div class="sg-purpose-card__bg">
 							<img src="img/purpose_3.png">
 						</div>
@@ -547,19 +544,17 @@
 	<script src="js/aos.js"></script>
 	<script>
 		document.addEventListener('DOMContentLoaded', function () {
-			/*const sgPurposeCards = document.querySelectorAll('[data-js="sgPurposeCard"]')
+			const sgPurposeCards = document.querySelectorAll('[data-js="sgPurposeCard"]')
 
 			if (sgPurposeCards.length > 0) {
 				const ww = window.innerWidth;
 
 				sgPurposeCards.forEach(card => {
-					if (ww > 767) {
-						card.setAttribute('data-aos', 'flip-left')
+					if (ww < 768) {
+						card.removeAttribute('data-aos')
 					}
-
-					card.classList.remove('sg-purpose-card--hidden')
 				})
-			}*/
+			}
 
 			AOS.init();
 		})

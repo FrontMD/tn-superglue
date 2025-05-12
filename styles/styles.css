@@ -224,10 +224,6 @@ img {
   background-color: #09130B;
 }
 
-.sg-purpose-card.sg-purpose-card--hidden {
-  /*opacity: 0 !important;*/
-}
-
 @media only screen and (max-width: 1350px) {
   .sg-purpose-card {
     padding: 30px 15px;
@@ -347,7 +343,7 @@ img {
   position: relative;
   margin-top: 37px;
   font-weight: 400;
-  font-size: 24px;
+  font-size: 23px;
   line-height: 1.2;
   letter-spacing: -0.01em;
   transition: all 0.3s linear;
