@@ -663,6 +663,10 @@ img {
   background: linear-gradient(114.63deg, rgba(0, 0, 0, 0.5) -7.13%, rgba(3, 103, 89, 0.5) 113.46%);
 }
 
+.sg-product-card--3 .sg-product-card__text {
+  max-width: 250px
+}
+
 @media only screen and (max-width: 1023px) {
   .sg-product-card--3 {
     grid-row: 1/3;
