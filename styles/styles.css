@@ -516,6 +516,7 @@ img {
 @media only screen and (max-width: 480px) {
   .sg-product-card__weight {
     font-size: 20px;
+    min-width: 30px;
   }
 }
 
@@ -632,7 +633,7 @@ img {
 @media only screen and (max-width: 480px) {
   .sg-product-card--1 {
     height: 400px;
-    padding: 16px 20px 16px 0;
+    padding: 16px 16px 16px 0;
     grid-row: 1 / 4;
   }
 }
