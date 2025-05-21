@@ -76,4 +76,37 @@ $(document).ready(function(){
 			}
 		};
 	});
+
+	/* slider */
+
+	$('.js-fabrication').slick({
+		infinite: true,
+		speed: 700,
+		autoplay: false,
+		autoplaySpeed: 1000,
+		slidesToShow: 3,
+		slidesToScroll: 1,
+		fade: false,
+		cssEase: 'linear',
+		dots: false,
+		centerMode: false,
+		focusOnSelect: false,
+		pauseOnFocus: false,
+		pauseOnHover: false,
+		draggable: true,
+		prevArrow: "<div class='slarleft'><img src='img/ico_slid_arrl_b.svg'></div>",
+		nextArrow: "<div class='slarright'><img src='img/ico_slid_arrr_b.svg'></div>",
+		responsive: [{
+			breakpoint: 768,
+			settings: {
+				slidesToShow: 2,
+				slidesToScroll: 1,
+			}},{
+			breakpoint: 460,
+			settings: {
+				slidesToShow: 1,
+				slidesToScroll: 1,
+			}}
+		]
+	});
 })
